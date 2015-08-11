@@ -1,6 +1,6 @@
 #!/bin/sh
  
-ssh -t dheeraj@10.0.1.2 <<EOF
+ssh -t -t dheeraj@10.0.1.2 <<EOF
   cd ~/Desktop/hello-jenkins
   git pull
   npm install --production
